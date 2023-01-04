@@ -1,0 +1,123 @@
+.joint-tooltip {
+   position: absolute;
+   z-index: 10000;
+   border-radius: 5px;
+   pointer-events: none;
+}
+
+.joint-tooltip .tooltip-content{
+   padding: 10px;
+}
+
+.joint-tooltip.left, .joint-tooltip.right {
+    margin-top: -2px;
+}
+
+.joint-tooltip.top, .joint-tooltip.bottom {
+    margin-left: -2px;
+}
+
+.joint-tooltip.small {
+   padding: 5px;
+   font-size: 10px;
+}
+
+.joint-tooltip .tooltip-arrow, .joint-tooltip .tooltip-arrow-mask {
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+}
+
+.joint-tooltip.left .tooltip-arrow-mask, .joint-tooltip.left .tooltip-arrow {
+   margin-right: -1px;
+   right: 100%;
+}
+
+.joint-tooltip.right .tooltip-arrow-mask, .joint-tooltip.right .tooltip-arrow {
+   margin-left: -1px;
+   left: 100%;
+}
+
+.joint-tooltip.top .tooltip-arrow-mask, .joint-tooltip.top .tooltip-arrow {
+   bottom: 100%;
+}
+
+.joint-tooltip.bottom .tooltip-arrow-mask, .joint-tooltip.bottom .tooltip-arrow {
+   top: 100%;
+}
+
+.joint-tooltip .tooltip-arrow-mask {
+   border-width: 6px;
+}
+
+.joint-tooltip.left .tooltip-arrow-mask {
+   margin-top: -6px;
+}
+
+.joint-tooltip.right .tooltip-arrow-mask {
+   margin-top: -6px;
+}
+
+.joint-tooltip.top .tooltip-arrow-mask {
+   margin-left: -6px;
+}
+
+.joint-tooltip.bottom .tooltip-arrow-mask {
+   margin-left: -6px;
+}
+
+.joint-tooltip .tooltip-arrow {
+   border-width: 8px;
+}
+
+.joint-tooltip.left .tooltip-arrow {
+   margin-top: -8px;
+}
+
+.joint-tooltip.right .tooltip-arrow {
+   margin-top: -8px;
+}
+
+.joint-tooltip.top .tooltip-arrow {
+   margin-left: -8px;
+}
+
+.joint-tooltip.bottom .tooltip-arrow {
+   margin-left: -8px;
+}
+
+/* Fading In */
+
+@keyframes joint-tooltip-fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+@-webkit-keyframes joint-tooltip-fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+@-moz-keyframes joint-tooltip-fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+@-ms-keyframes joint-tooltip-fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+.joint-tooltip.animated {
+   opacity: 0;
+}
+.joint-tooltip.animated.rendered {
+   animation: joint-tooltip-fadein;
+   -webkit-animation: joint-tooltip-fadein;
+   -moz-animation: joint-tooltip-fadein;
+   -ms-animation: joint-tooltip-fadein;
+   animation-fill-mode: forwards;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   -ms-animation-fill-mode: forwards;
+}

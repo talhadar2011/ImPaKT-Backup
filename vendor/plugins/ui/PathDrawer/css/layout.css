@@ -1,0 +1,18 @@
+.joint-path-drawer {
+	cursor: crosshair;
+}
+.joint-path-drawer .start-point {
+	fill: #ffffff;
+	stroke: #000000;
+	stroke-width: 2px;
+}
+.joint-path-drawer .start-point:hover {
+	fill: #000000;
+}
+.joint-path-drawer .control-path {
+    pointer-events: none;
+    fill: none;
+    stroke: #000000;
+    stroke-width: 1px;
+    stroke-linecap: round;
+}

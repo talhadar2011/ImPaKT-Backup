@@ -1,0 +1,20 @@
+.joint-dialog.joint-lightbox.joint-theme-dark .btn-close {
+    color: #d1d2d4;
+    top: -35px;
+    right: -4px;
+    font-size: 24px;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-dark .btn-close:hover {
+    color: #d1d2d4;
+    border: 1px solid #937b7b;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-dark .titlebar {
+    color: #d1d2d4;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-dark .control-button {
+    color: #d1d2d4;
+    border: 1px solid #937b7b;
+}

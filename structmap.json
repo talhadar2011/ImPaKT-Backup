@@ -1,0 +1,734 @@
+{
+   "Data": {
+      "Shape": [
+         {
+            "name": "Planing",
+            "id": "Planing",
+            "type": "RFL",
+            "depth": 0
+         },{
+            "name": "Rrequirements",
+            "id": "Requirements",
+            "type": "RFL",
+            "depth": 0
+         },{
+            "name": "Functions",
+            "id": "Functions",
+            "type": "RFL",
+            "depth": 0
+
+         },{
+            "name": "Logic",
+            "id": "Logic",
+            "type": "RFL",
+            "depth": 0
+
+         },
+         {
+            "name": "Stakeholder requirements",
+            "id": "Stakeholder requirements",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {
+            "name": "Software Requirements",
+            "id": "Software Requirements",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {
+            "name": "System requirements",
+            "id": "System requirements",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {
+            "name": "Software Functions",
+            "id": "Software Functions",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {
+            "name": "Software Logic",
+            "id": "Software Logic",
+            "type": "Requirements Type",
+            "depth": 1
+
+         }, {
+            "name": "System Logic",
+            "id": "System Logic",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {
+            "name": "System Functions",
+            "id": "System Functions",
+            "type": "Requirements Type",
+            "depth": 1
+
+         },
+         {  
+            "depth": 2,
+            "name": "Requirement 0",
+            "id": "SW-R: 4.1.2",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.1.2",
+            "Info": "Save state",
+            "Description": "Software must be able to get into save state after every statemachine",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Client ": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 1",
+            "id": "SW-R: 4.2",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2",
+            "Info": "Sensing Functions",
+            "Description": "Discribes functions for sensing rain and rain amount",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {  "depth": 2,
+            "name": "Requirement 2",
+            "id": "SW-R: 4.2.1.1",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.1",
+            "Info": "Rain detection",
+            "Description": "If more rain is detected the wiper rate must be increased",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 3",
+            "id": "SW-R: 4.2.1.2",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.2",
+            "Info": "Speed detection",
+            "Description": "If higher speed is detected without detecting more rain the wiper rate must be increased",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 4",
+            "id": "SW-R: 4.2.1.3",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.3",
+            "Info": "Higher speed and more rain detection ",
+            "Description": "If higher speed an more rain is detected the wiper rate must be increased",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         { 
+            "depth": 3,
+            "name": "Requirement 5",
+            "id": "SW-R: 4.2.1.4",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.4",
+            "Info": "Wiper rate cofiguration",
+            "Description": "Increasing of the wiper rate must be linked to the user configuration",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         }, {
+            "depth": 3,
+            "name": "Requirement 6",
+            "id": "SW-R: 4.2.1.5",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.5",
+            "Info": "Wiper rate cofiguration",
+            "Description": "Increasing of the wiper rate must be linked to the user configuration",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         }, {
+            "depth": 3,
+            "name": "Requirement 7",
+            "id": "SW-R: 4.2.1.6",
+            "type": "Software Requirements",
+            "Text": "SW-R: 4.2.1.6",
+            "Info": "Wiper rate cofiguration",
+            "Description": "Increasing of the wiper rate must be linked to the user configuration",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "Wiper_Washer_Software_Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         
+         {
+            "depth": 2,
+            "name": "Requirement 17",
+            "id": "SH-R: 1",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 1",
+            "Info": "Extra Functional Requirements",
+            "Description": "Extra Functional Requirements",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 18",
+            "id": "SH-R: 1.1",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 1.1",
+            "Info": "Use AUTOSAR standardized application interfaces and architecture",
+            "Description": "The body controller SHALL integrate existing Exterior Light software components that are provided by the customer",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 19",
+            "id": "SH-R: 1.2",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 1.2",
+            "Info": "Integration of Exterior Light software components",
+            "Description": "The Wiper Washer software component SHALL provide AUTOSAR interfaces as defined in the AUTOSAR Specification 'AUTOSAR_ApplicationInterfaces_Explanation_BodyComfort.pdf' (Revision 3.2.1) ",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 20",
+            "id": "SH-R: 2",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 2",
+            "Info": "Functional Requirements",
+            "Description": "Functional Requirements",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 21",
+            "id": "SH-R: 2.1",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 2.1",
+            "Info": "Auto Wiping",
+            "Description": "The front wiper SHALL support auto wiping",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 3,
+            "name": "Requirement 22",
+            "id": "SH-R: 1.2.22",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 1.2",
+            "Info": "Integration of Exterior Light software components",
+            "Description": "The Wiper Washer software component SHALL provide AUTOSAR interfaces as defined in the AUTOSAR Specification 'AUTOSAR_ApplicationInterfaces_Explanation_BodyComfort.pdf' (Revision 3.2.1) ",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 3,
+            "name": "Requirement 23",
+            "id": "SH-R: 1.2.23",
+            "type": "Stakeholder requirements",
+            "Text": "SH-R: 1.2",
+            "Info": "Integration of Exterior Light software components",
+            "Description": "The Wiper Washer software component SHALL provide AUTOSAR interfaces as defined in the AUTOSAR Specification 'AUTOSAR_ApplicationInterfaces_Explanation_BodyComfort.pdf' (Revision 3.2.1) ",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher Stakeholder Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         
+         {
+            "depth": 2,
+            "name": "Requirement 32",
+            "id": "Sys-R: 1.1",
+            "type": "System requirements",
+            "Text": "Sys-R: 1.1",
+            "Info": "Use AUTOSAR standardized application interfaces and architecture ",
+            "Description": "The Wiper Washer software component MUST provide AUTOSAR interfaces as defined in the AUTOSAR Specification 'AUTOSAR_ApplicationInterfaces_Explanation_BodyComfort.pdf' (Revision 3.2.1) ",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 33",
+            "id": "Sys-R: 1.2",
+            "type": "System requirements",
+            "Text": "Sys-R: 1.2",
+            "Info": "Integration of Exterior Light software components",
+            "Description": "The body controller SHALL integrate existing Exterior Light software components that are provided by the customer",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 34",
+            "id": "Sys-R: 2.1",
+            "type": "System requirements",
+            "Text": "Sys-R: 2.1",
+            "Info": "Auto Wiping",
+            "Description": "nan",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 3,
+            "name": "Requirement 37",
+            "id": "Sys-R: 2.1.37",
+            "type": "System requirements",
+            "Text": "Sys-R: 2.1.37",
+            "Info": "Auto Wiping",
+            "Description": "nan",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 3,
+            "name": "Requirement 38",
+            "id": "Sys-R: 2.1.38",
+            "type": "System requirements",
+            "Text": "Sys-R: 2.1.38",
+            "Info": "Auto Wiping",
+            "Description": "nan",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {
+            "depth": 2,
+            "name": "Requirement 35",
+            "id": "Sys-R: 2.1.1",
+            "type": "System requirements",
+            "Text": "Sys-R: 2.1.1",
+            "Info": "Auto Wiping on user request",
+            "Description": "The wiper washer controller SHALL enable auto wiping if HMIActivateAutoWiping is set to 'on'.",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         },
+         {"depth": 2,
+            "name": "Requirement 36",
+            "id": "Sys-R: 2.1.2",
+            "type": "System requirements",
+            "Text": "Sys-R: 2.1.2",
+            "Info": "Configurable sensitifity of auto wiping",
+            "Description": "If auto wiping is enabled the wiper washer controller SHALL configure the sensitifity of the auto wiping algorithm based on HMIIntervalWipingSpeed",
+            "properties": {
+               "Client Name": "YTMockClient",
+               "Product": "YT_Showcase_WiperWasher",
+               "Document": "WiperWasher System Requirements",
+               "Version": "1.0 (JAN17)"
+            }
+         }
+         
+      ],
+      "RelationShip": [
+      
+         {
+            "id": 1,
+            "depth": 1,
+            "label": "requirments",
+            "source": [
+               "Requirements"
+            ],
+            "target": [
+               "Software Requirements"
+            ]
+         },{
+            "id": 2,
+            "depth": 1,
+            "label": "requirments",
+            "source": [
+               "Requirements"
+            ],
+            "target": [
+               "Stakeholder requirements"
+            ]
+         },{
+            "id": 3,
+            "depth": 1,
+            "label": "requirments",
+            "source": [
+               "Requirements"
+            ],
+            "target": [
+               "System requirements"
+            ]
+         },{
+            "id": 4,
+            "depth": 1,
+            "label": "required",
+            "source": [
+               "Functions"
+            ],
+            "target": [
+               "Software Functions"
+            ]
+         },{
+            "id": 5,
+            "depth": 1,
+            "label": "required",
+            "source": [
+               "Functions"
+            ],
+            "target": [
+               "System Functions"
+            ]
+         },
+         {
+            "id": 6,
+            "depth": 1,
+            "label": "required",
+            "source": [
+               "Logic"
+            ],
+            "target": [
+               "Software Logic"
+            ]
+         },
+         {
+            "id": 7,
+            "depth": 2,
+            "label": "required",
+            "source": [
+               "Software Requirements"
+            ],
+            "target": [
+               "SW-R: 4.1.2"
+            ]
+         },
+         {
+            "id": 8,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "Software Requirements"
+            ],
+            "target": [
+               "SW-R: 4.2"
+            ]
+         },
+         {
+            "id": 9,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Software Requirements"
+            ],
+            "target": [
+               "SW-R: 4.2.1.1"
+            ]
+         },
+         {
+            "id": 10,
+            "depth": 2,
+            "label": "required",
+            "source": [
+               "Software Requirements"
+            ],
+            "target": [
+               "SW-R: 4.2.1.2"
+            ]
+         },
+         {
+            "id": 11,
+            "depth": 2,
+            "label": "required",
+            "source": [
+               "Software Requirements"
+            ],
+            "target": [
+               "SW-R: 4.2.1.3"
+            ]
+         },
+         {
+            "id": 12,
+            "depth": 3,
+            "label": "required",
+            "source": [
+               "SW-R: 4.2.1.3"
+            ],
+            "target": [
+               "SW-R: 4.2.1.4"
+            ]
+         },{
+            "id": 13,
+            "depth": 3,
+            "label": "required",
+            "source": [
+               "SW-R: 4.2.1.3"
+            ],
+            "target": [
+               "SW-R: 4.2.1.5"
+            ]
+         },{
+            "id": 14,
+            "depth": 3,
+            "label": "required",
+            "source": [
+               "SW-R: 4.2.1.3"
+            ],
+            "target": [
+               "SW-R: 4.2.1.6"
+            ]
+         },
+         {
+            "id": 15,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Stakeholder requirements"
+            ],
+            "target": [
+               "SH-R: 1"
+            ]
+         },
+         {
+            "id": 16,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Stakeholder requirements"
+            ],
+            "target": [
+               "SH-R: 1.1"
+            ]
+         },
+         {
+            "id": 17,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Stakeholder requirements"
+            ],
+            "target": [
+               "SH-R: 1.2"
+            ]
+         },
+         {
+            "id": 18,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Stakeholder requirements"
+            ],
+            "target": [
+               "SH-R: 2"
+            ]
+         },
+         {
+            "id": 19,
+            "depth": 2,
+            "label": "required_By",
+            "source": [
+               "Stakeholder requirements"
+            ],
+            "target": [
+               "SH-R: 2.1"
+            ]
+         },
+         {
+            "id": 20,
+            "depth": 3,
+            "label": "required_By",
+            "source": [
+               "SH-R: 1.2"
+            ],
+            "target": [
+               "SH-R: 1.2.22"
+            ]
+         },
+         {
+            "id": 21,
+            "depth": 3,
+            "label": "required_By",
+            "source": [
+               "SH-R: 1.2"
+            ],
+            "target": [
+               "SH-R: 1.2.23"
+            ]
+         },
+         {
+            "id": 22,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "System requirements"
+            ],
+            "target": [
+               "Sys-R: 1.1"
+            ]
+         },
+         {
+            "id": 23,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "System requirements"
+            ],
+            "target": [
+               "Sys-R: 1.2"
+            ]
+         },
+         {
+            "id": 24,
+            "depth": 3,
+            "label": "refined",
+            "source": [
+               "Sys-R: 2.1"
+            ],
+            "target": [
+               "Sys-R: 2.1.38"
+            ]
+         },
+         {
+            "id": 25,
+            "depth": 3,
+            "label": "refined",
+            "source": [
+               "Sys-R: 2.1"
+            ],
+            "target": [
+               "Sys-R: 2.1.37"
+            ]
+         },
+         {
+            "id": 26,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "System requirements"
+            ],
+            "target": [
+               "Sys-R: 2.1"
+            ]
+         },
+         {
+            "id": 27,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "System requirements"
+            ],
+            "target": [
+               "Sys-R: 2.1.1"
+            ]
+         },
+         {
+            "id": 28,
+            "depth": 2,
+            "label": "refined",
+            "source": [
+               "System requirements"
+            ],
+            "target": [
+               "Sys-R: 2.1.2"
+            ]
+         },
+         {
+            "id": 29,
+            "depth": 4,
+            "label": "refined",
+            "source": [
+               "SW-R: 4.2.1.4"
+            ],
+            "target": [
+               "SH-R: 1.1"
+            ]
+         },
+         {
+            "id": 30,
+            "depth": 1,
+            "label": "requirments",
+            "source": [
+               "Logic"
+            ],
+            "target": [
+               "System Logic"
+            ]
+         }
+      ]
+   }
+}

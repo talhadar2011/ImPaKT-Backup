@@ -1,0 +1,51 @@
+.joint-path-editor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.joint-path-editor .control-point,
+.joint-path-editor .anchor-point {
+    cursor: pointer;
+    pointer-events: auto;
+    border: 1px solid lightgrey;
+    stroke-width: 1px;
+}
+.joint-path-editor .control-point {
+    fill: royalblue;
+    stroke: royalblue;
+}
+.joint-path-editor .control-point.locked {
+    fill: seagreen;
+    stroke: seagreen;
+}
+.joint-path-editor .anchor-point {
+    fill: crimson;
+    stroke: crimson;
+}
+.joint-path-editor .direction-path {
+    stroke: #000000;
+    stroke-width: 1px;
+}
+.joint-path-editor .segment-path {
+    cursor: move;
+    pointer-events: auto;
+    fill: none;
+    stroke: #000000;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0;
+    stroke-opacity: 0;
+}
+.joint-path-editor .segment-path:hover {
+    opacity: .6;
+    stroke-opacity: .6;
+}

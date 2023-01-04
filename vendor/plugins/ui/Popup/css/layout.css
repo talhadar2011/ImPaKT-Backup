@@ -1,0 +1,36 @@
+.joint-popup {
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Arrow styling. */
+
+.joint-popup:before,
+.joint-popup:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+/* top-stacked, smaller arrow */
+.joint-popup:before {
+
+    /* positioning */
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 2;
+}
+
+/* arrow which acts as a background shadow */
+.joint-popup:after {
+
+    /* positioning */
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 1;
+}

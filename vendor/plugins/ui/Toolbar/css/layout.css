@@ -1,0 +1,52 @@
+div.joint-toolbar,
+div.joint-toolbar .joint-toolbar-group,
+div.joint-toolbar .joint-widget {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1000;
+}
+
+div.joint-toolbar button.joint-widget {
+    flex-shrink: 1;
+}
+
+.joint-toolbar .joint-toolbar-group.right.group-first {
+    margin-left: auto;
+}
+
+.joint-toolbar .joint-widget + .joint-widget,
+.joint-toolbar-group + .joint-toolbar .joint-widget,
+.joint-toolbar .joint-widget + .joint-toolbar-group,
+.joint-toolbar-group + .joint-toolbar-group {
+    margin-left: 2px;
+}
+
+/* chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    div.joint-toolbar textarea {
+        margin-top: 4px;
+    }
+    div.joint-toolbar button.joint-widget {
+        text-align: center;
+    }
+}
+
+/* IE 8,9,10*/
+@media screen\0 {
+    .joint-toolbar .joint-toolbar-group,
+    .joint-toolbar .joint-widget {
+        vertical-align: middle;
+    }
+
+    .joint-toolbar {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .joint-toolbar .joint-toolbar-group.right {
+        float: right;
+    }
+    div.joint-toolbar button.joint-widget {
+        display:table-cell;
+    }
+}

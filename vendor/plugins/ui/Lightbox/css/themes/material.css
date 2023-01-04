@@ -1,0 +1,26 @@
+.joint-dialog.joint-lightbox.joint-theme-material {
+    font-family: lato-light, Arial, sans-serif;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-material .bg {
+    background: #000;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-material .btn-close {
+    color: #fff;
+    top: -35px;
+    right: -2px;
+    font-size: 24px;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-material .btn-close:hover {
+    border: 1px solid #fff;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-material .titlebar {
+    color: #fff;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-material .control-button {
+    color: #fff;
+}

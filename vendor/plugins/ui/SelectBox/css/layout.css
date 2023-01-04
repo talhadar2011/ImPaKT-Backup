@@ -1,0 +1,53 @@
+.joint-select-box {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.select-box-selection {
+    padding: 8px 12px;
+    padding-right: 40px;
+}
+.select-box-selection:empty {
+    height: 1em;
+}
+.select-box-selection:after,
+.select-box-option.selected:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.joint-select-box-options {
+    position: absolute;
+    z-index: 10001;
+    box-sizing: border-box;
+}
+.joint-select-box.opened .joint-select-box-options {
+    display: block;
+}
+.select-box-option {
+    cursor: pointer;
+    padding: 8px 12px;
+    padding-right: 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+.select-box-option-icon {
+    max-height: 1em;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+/* Availibility */
+
+.joint-select-box.disabled {
+    cursor: default;
+}
+
+.joint-select-box.disabled .select-box-selection:after {
+    display: none;
+}

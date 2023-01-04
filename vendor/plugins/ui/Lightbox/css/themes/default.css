@@ -1,0 +1,18 @@
+.joint-dialog.joint-lightbox.joint-theme-default .btn-close {
+    color: #fff;
+    top: -35px;
+    right: -2px;
+    font-size: 24px;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-default .btn-close:hover {
+    border: 1px solid #fff;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-default .titlebar {
+    color: #fff;
+}
+
+.joint-dialog.joint-lightbox.joint-theme-default .control-button {
+    color: #fff;
+}

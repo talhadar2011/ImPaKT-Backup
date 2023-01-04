@@ -1,0 +1,21 @@
+{
+  "name": "rappid",
+  "version": "3.3.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clientio",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "canvg-rappid": "^1.0.3",
+    "dagre": "^0.8.5",
+    "graphlib": "^2.1.8",
+    "jointjs": "^3.3.1",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20"
+  },
+  "module": "rappid.mjs"
+}

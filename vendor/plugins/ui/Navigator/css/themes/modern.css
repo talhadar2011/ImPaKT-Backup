@@ -1,0 +1,17 @@
+.joint-navigator.joint-theme-modern {
+    background-color: #fff;
+}
+.joint-navigator.joint-theme-modern > .joint-paper {
+    box-shadow: 0 0 2px lightgray;
+}
+.joint-navigator.joint-theme-modern.navigator-use-content-bbox > .joint-paper {
+    box-shadow: none;
+}
+.joint-navigator.joint-theme-modern .current-view {
+    border: 2px solid #31d0c6;
+}
+.joint-navigator.joint-theme-modern .current-view-control {
+    border-radius: 50%;
+    border: 2px solid #31d0c6;
+    background-color: #fff;
+}

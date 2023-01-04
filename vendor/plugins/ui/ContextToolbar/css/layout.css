@@ -1,0 +1,24 @@
+.joint-context-toolbar {
+    position: absolute;
+    z-index: 1000;
+}
+.joint-context-toolbar .tools {
+    margin-top: -5px;
+    margin-left: -4px;
+}
+.joint-context-toolbar .tool {
+    min-height: 30px;
+    min-width: 35px;
+    cursor: pointer;
+    outline: none;
+    vertical-align: middle;
+    margin: 0;
+    padding: 5px;
+}
+.joint-context-toolbar.joint-vertical .tool {
+    display: block;
+    width: 100%;
+}
+.joint-context-toolbar .tool > img {
+    pointer-events: none;
+}

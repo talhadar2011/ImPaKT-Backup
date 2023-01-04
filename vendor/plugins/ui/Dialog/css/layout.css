@@ -1,0 +1,97 @@
+.joint-dialog .bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+    z-index: 10000;
+}
+
+.joint-dialog .fg {
+    width: 80%;
+    margin: 0 auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 10001;
+    position: absolute;
+}
+
+.joint-dialog.inlined .bg {
+    display: none;
+}
+
+.joint-dialog:not(.modal) .bg {
+    display: none;
+}
+.joint-dialog:not(.modal) .fg {
+    /* Make sure modal dialogs are always on top. */
+    z-index: 9999;
+}
+
+.joint-dialog.inlined .fg {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0;
+    z-index: auto;
+}
+
+.joint-dialog .titlebar {
+    text-rendering: optimizeLegibility;
+}
+
+.joint-dialog.draggable .titlebar {
+    cursor: move;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.joint-dialog .titlebar.empty {
+    display: none;
+}
+
+.joint-dialog .btn-close {
+    line-height: 1;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.joint-dialog .body {
+    padding: 10px;
+}
+
+.joint-dialog .controls {
+    text-align: center; /* to align .center buttons */
+}
+
+.joint-dialog .controls .control-button {
+    float: right; /* buttons are right-aligned by default */
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.joint-dialog .controls .control-button:first-child:not(.left):not(.center) {
+    /* requires right-aligned buttons to come first in the generated HTML */
+    /* workaround because right-aligned buttons do not have a dedicated class */
+    margin-right: 10px; /* extra space for the rightmost right-aligned button */
+}
+.joint-dialog .controls .control-button.left {
+    float: left;
+}
+.joint-dialog .controls .control-button.left:not(.left ~ .left) {
+    margin-left: 10px; /* extra space for the leftmost left-aligned button */
+}
+.joint-dialog .controls .control-button.center {
+    float: none; /* remove default button float */
+    display: inline-block; /* align to center */
+}

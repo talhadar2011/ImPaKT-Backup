@@ -1,0 +1,15 @@
+.joint-select-button-group.joint-theme-modern .select-button-group-button {
+    text-align: center;
+    border: 2px solid transparent;
+}
+.joint-select-button-group.joint-theme-modern .select-button-group-button.selected {
+    color: #31d0c6;
+    border: 2px solid #31d0c6;
+    border-radius: 4px;
+}
+.joint-select-button-group.joint-theme-modern.disabled .select-button-group-button {
+    color: #c6c7e2;
+}
+ .joint-select-button-group.joint-theme-modern.disabled .select-button-group-button.selected {
+    border-color: #c6c7e2;
+}

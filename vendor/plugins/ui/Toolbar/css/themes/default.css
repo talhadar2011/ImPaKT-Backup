@@ -1,0 +1,17 @@
+.joint-toolbar.joint-theme-default {
+    background: white;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+/* IE 8,9,10*/
+@media screen\0 {
+    .joint-toolbar.joint-theme-default .joint-widget[data-type="toggle"] span:first-child {
+        line-height: 32px;
+    }
+    .joint-toolbar.joint-theme-default label {
+        line-height: 36px;
+    }
+}

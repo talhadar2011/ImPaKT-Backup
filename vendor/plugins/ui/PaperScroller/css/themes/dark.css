@@ -1,0 +1,6 @@
+.joint-paper-scroller.joint-theme-dark > .paper-scroller-background {
+    background: #18191b;
+}
+.joint-paper-scroller.joint-theme-dark .joint-paper {
+    border: 1px dotted #fefefe;
+}

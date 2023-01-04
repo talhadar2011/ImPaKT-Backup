@@ -1,0 +1,7 @@
+.joint-snaplines.joint-theme-modern .snapline.horizontal {
+    border-bottom: 1px solid #2ECC71;
+}
+
+.joint-snaplines.joint-theme-modern .snapline.vertical {
+    border-right: 1px solid #2ECC71;
+}

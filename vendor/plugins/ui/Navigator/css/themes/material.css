@@ -1,0 +1,17 @@
+.joint-navigator.joint-theme-material {
+    background-color: #fff;
+}
+.joint-navigator.joint-theme-material > .paper {
+    box-shadow: 0 0 2px lightgray;
+}
+.joint-navigator.joint-theme-material.navigator-use-content-bbox > .paper {
+    box-shadow: none;
+}
+.joint-navigator.joint-theme-material .current-view {
+    border: 2px solid #5faaee;
+}
+.joint-navigator.joint-theme-material .current-view-control {
+    border-radius: 50%;
+    border: 2px solid #5faaee;
+    background-color: #ecf0f8;
+}

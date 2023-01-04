@@ -1,0 +1,11 @@
+.joint-flash-message .fg {
+    top: 0;
+    max-width: 30%;
+    min-width: 300px;
+    right: 20px;
+    left: auto;
+}
+.joint-flash-message .titlebar {
+    border-radius: 0;
+    border-bottom: 0;
+}

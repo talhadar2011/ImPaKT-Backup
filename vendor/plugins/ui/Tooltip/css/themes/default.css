@@ -1,0 +1,37 @@
+.joint-tooltip.joint-theme-default {
+   background-color: lightgrey;
+   color: black;
+   font-size: 14px;
+}
+
+.joint-tooltip.joint-theme-default.left .tooltip-arrow-mask {
+   border-right-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.right .tooltip-arrow-mask {
+   border-left-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.top .tooltip-arrow-mask {
+   border-bottom-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.bottom .tooltip-arrow-mask {
+   border-top-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.left .tooltip-arrow {
+   border-right-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.right .tooltip-arrow {
+   border-left-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.top .tooltip-arrow {
+   border-bottom-color: lightgrey;
+}
+
+.joint-tooltip.joint-theme-default.bottom .tooltip-arrow {
+   border-top-color: lightgrey;
+}

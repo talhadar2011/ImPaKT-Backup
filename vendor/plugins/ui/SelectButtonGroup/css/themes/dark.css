@@ -1,0 +1,20 @@
+.joint-select-button-group.joint-theme-dark .select-button-group-button {
+    text-align: center;
+    color: #feffff;
+    border: 2px solid transparent;
+    text-shadow: 1px 2px 1px #313538;
+}
+.joint-select-button-group.joint-theme-dark.disabled .select-button-group-button {
+    text-shadow: none;
+}
+.joint-select-button-group.joint-theme-dark .select-button-group-button.selected {
+    color: #feffff;
+    border: 2px solid #feffff;
+    border-radius: 4px;
+}
+.joint-select-button-group.joint-theme-dark.disabled .select-button-group-button {
+    color: #8b9094;
+}
+ .joint-select-button-group.joint-theme-dark.disabled .select-button-group-button.selected {
+    border-color: #8b9094;
+}

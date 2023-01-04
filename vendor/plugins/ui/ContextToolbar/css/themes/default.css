@@ -1,0 +1,24 @@
+.joint-context-toolbar.joint-theme-default .tools {
+    border: 1px solid lightgrey;
+}
+.joint-context-toolbar.joint-theme-default .tool {
+    background: white;
+    border: none;
+}
+.joint-context-toolbar.joint-theme-default .tool:not(:last-child) {
+    border-right: 1px solid lightgrey;
+}
+.joint-context-toolbar.joint-theme-default.joint-vertical .tool:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+}
+.joint-context-toolbar.joint-theme-default.joint-vertical .tool {
+    border-bottom: none;
+}
+
+.joint-context-toolbar.joint-theme-default .tool:hover {
+    background-color: lightgrey;
+}
+.joint-context-toolbar.joint-theme-default .tool:active {
+    background-color: grey;
+}

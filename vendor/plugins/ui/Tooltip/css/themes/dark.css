@@ -1,0 +1,40 @@
+.joint-tooltip.joint-theme-dark {
+   color: #fff;
+   font-size: 14px;
+   background: #5e6366;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0 1px 1px #aaa;
+}
+
+.joint-tooltip.joint-theme-dark.left .tooltip-arrow-mask {
+   border-right-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.right .tooltip-arrow-mask {
+   border-left-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.top .tooltip-arrow-mask {
+   border-bottom-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.bottom .tooltip-arrow-mask {
+   border-top-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.left .tooltip-arrow {
+   border-right-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.right .tooltip-arrow {
+   border-left-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.top .tooltip-arrow {
+   border-bottom-color: #5e6366;
+}
+
+.joint-tooltip.joint-theme-dark.bottom .tooltip-arrow {
+   border-top-color: #5e6366;
+}

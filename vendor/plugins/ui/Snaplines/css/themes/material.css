@@ -1,0 +1,7 @@
+.joint-snaplines.joint-theme-material .snapline.horizontal {
+    border-bottom: 1px solid #5faaee;
+}
+
+.joint-snaplines.joint-theme-material .snapline.vertical {
+    border-right: 1px solid #5faaee;
+}

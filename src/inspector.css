@@ -1,0 +1,51 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.Background{
+    background-color: #383b61;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.row{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.label{
+    color: white;
+}
+h1{
+    position: relative;
+    left: 0;
+    width: 100%;
+    line-height: 31px;
+    color: #9093b1;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background: #424568;
+    padding: 0 5px 0 34px;
+}
+p{
+    
+    color:white;
+}
+.input{
+    margin-right: 20px;
+    margin-left: 5px;
+
+}
+.btn{
+    margin-left: 5px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 5px;
+}
+.label{
+    margin-left: 5px;
+}

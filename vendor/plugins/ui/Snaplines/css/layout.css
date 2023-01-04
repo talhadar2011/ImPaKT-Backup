@@ -1,0 +1,33 @@
+.joint-snaplines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.joint-snaplines > .snapline {
+    position: absolute;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.joint-snaplines > .snapline.horizontal {
+    width: 100%;
+}
+
+.joint-snaplines > .snapline.vertical {
+    height: 100%;
+}
+
+/* When the snaplines are inside the PaperScroller enlarge the snaplines so they appear as they would sit in the PaperScroller. */
+.joint-paper-scroller .joint-snaplines > .snapline.horizontal {
+    width: 700%;
+    left: -300%;
+}
+
+.joint-paper-scroller .joint-snaplines > .snapline.vertical {
+    height: 700%;
+    top: -300%;
+}

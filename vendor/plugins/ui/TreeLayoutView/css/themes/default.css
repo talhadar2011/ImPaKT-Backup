@@ -1,0 +1,31 @@
+/* HTML Elements for dragging and highlighting the original element */
+
+.joint-tree-layout.joint-theme-default .tree-layout-box {
+    background-color: rgba(255,255,255,0.5);
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin: -2px 0 0 -2px;
+}
+
+/* HTML element under the cursor */
+
+.joint-tree-layout.joint-theme-default .tree-layout-box.translate {
+    border-style: dotted;
+}
+
+.joint-tree-layout.joint-theme-default .tree-layout-box.translate.no-drop {
+    border-color: red;
+}
+
+/* SVG preview on the main paper */
+
+.tree-layout-preview-group.joint-theme-default .tree-layout-preview {
+    stroke: grey;
+    stroke-width: 2;
+}
+
+.tree-layout-preview-group.joint-theme-default .tree-layout-preview.child,
+.tree-layout-preview-group.joint-theme-default .tree-layout-preview.parent {
+    fill: white;
+    fill-opacity: 0.5;
+}

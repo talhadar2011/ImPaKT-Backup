@@ -1,0 +1,7 @@
+.joint-snaplines.joint-theme-dark .snapline.horizontal {
+    border-bottom: 1px solid #feb663;
+}
+
+.joint-snaplines.joint-theme-dark .snapline.vertical {
+    border-right: 1px solid #feb663;
+}

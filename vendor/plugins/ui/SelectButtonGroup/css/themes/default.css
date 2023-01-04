@@ -1,0 +1,15 @@
+.joint-select-button-group.joint-theme-default .select-button-group-button {
+    text-align: center;
+    border: 1px solid transparent;
+}
+.joint-select-button-group.joint-theme-default .select-button-group-button.selected {
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.joint-select-button-group.joint-theme-default.disabled .select-button-group-button {
+    color: lightgrey;
+}
+ .joint-select-button-group.joint-theme-default.disabled .select-button-group-button.selected {
+    border-color: lightgrey;
+}

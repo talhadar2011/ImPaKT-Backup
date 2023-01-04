@@ -1,0 +1,63 @@
+.joint-dialog.joint-lightbox {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center; /* to align .fg to center */
+}
+
+.joint-dialog.joint-lightbox .bg {
+    opacity: .87;
+}
+
+.joint-dialog.joint-lightbox .btn-close {
+    background-color: transparent;
+    border: 1px solid transparent;
+    text-shadow: none;
+}
+
+.joint-dialog.joint-lightbox .fg {
+    position: relative;
+    display: inline-block; /* align to center */
+    overflow: visible;
+    background-color: transparent;
+    top: 0;
+    width: 80%;
+    height: 80%;
+    min-width: 10%;
+    max-height: none;
+    border: none;
+    box-shadow: none;
+    text-align: center; /* to align .body to center */
+}
+
+.joint-dialog.joint-lightbox .body {
+    display: inline-block; /* align to center */
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.joint-dialog.joint-lightbox img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.joint-dialog.joint-lightbox .titlebar {
+    position: absolute; /* to position it after .body */
+    background-color: transparent;
+    background: none;
+    top: 100%;
+    padding: 10px 0px;
+    border-bottom: none;
+    text-align: left;
+}
+
+.joint-dialog.joint-lightbox .controls {
+    position: relative; /* to position it after .titlebar */
+}

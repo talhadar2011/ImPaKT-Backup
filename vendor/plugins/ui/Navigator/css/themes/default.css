@@ -1,0 +1,18 @@
+.joint-navigator.joint-theme-default {
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.joint-navigator.joint-theme-default > .joint-paper {
+    box-shadow: 0 0 2px black;
+}
+.joint-navigator.joint-theme-default.navigator-use-content-bbox > .joint-paper {
+    box-shadow: none;
+}
+.joint-navigator.joint-theme-default .current-view {
+    border: 2px solid grey;
+}
+.joint-navigator.joint-theme-default .current-view-control {
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: white;
+}

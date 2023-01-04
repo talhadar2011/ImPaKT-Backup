@@ -1,0 +1,16 @@
+.joint-free-transform.joint-theme-default {
+    border: 1px dashed black;
+}
+
+.joint-free-transform.joint-theme-default > div {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.joint-free-transform.joint-theme-default > div:hover {
+    background-color: lightgrey;
+}
+
+.joint-free-transform.joint-theme-default > div.in-operation {
+    background-color: grey;
+}

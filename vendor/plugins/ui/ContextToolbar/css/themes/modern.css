@@ -1,0 +1,38 @@
+.joint-context-toolbar.joint-theme-modern .tools {
+    border: 2px solid #31d0c6;
+    border-radius: 10px;
+}
+.joint-context-toolbar.joint-theme-modern .tool {
+    background: #f6f6f6;
+    border: none;
+    border-right: 1px solid #c6c7e2;
+}
+.joint-context-toolbar.joint-theme-modern .tool:last-child {
+    border-right: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.joint-context-toolbar.joint-theme-modern .tool:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.joint-context-toolbar.joint-theme-modern.joint-vertical .tool {
+    border-right: none;
+    border-bottom: 1px solid #c6c7e2;
+}
+.joint-context-toolbar.joint-theme-modern.joint-vertical .tool:last-child {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom: none;
+}
+.joint-context-toolbar.joint-theme-modern.joint-vertical .tool:first-child {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 0;
+}
+
+.joint-context-toolbar.joint-theme-modern .tool:hover,
+.joint-context-toolbar.joint-theme-modern .tool:active {
+    background-color: #c6c7e2;
+}

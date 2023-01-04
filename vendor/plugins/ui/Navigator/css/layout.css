@@ -1,0 +1,41 @@
+.joint-navigator {
+    overflow: hidden;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.joint-navigator > .joint-paper {
+    display: inline-block;
+    cursor: pointer;
+}
+.joint-navigator > .joint-paper > svg {
+    shape-rendering: optimizeSpeed;
+    pointer-events: none;
+}
+.joint-navigator .current-view {
+    position: absolute;
+    cursor: move;
+    margin: -2px 0 0 -2px;
+}
+.joint-navigator .current-view-control {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    cursor: nwse-resize;
+    margin: 0 -7px -7px 0;
+}
+.joint-navigator .joint-paper .joint-element * {
+    vector-effect: initial;
+}
+
+.joint-navigator.navigator-no-content .current-view,
+.joint-navigator.navigator-no-content .joint-paper {
+    display: none;
+}

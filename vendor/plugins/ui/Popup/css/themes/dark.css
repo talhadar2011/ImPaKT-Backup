@@ -1,0 +1,23 @@
+.joint-popup.joint-theme-dark {
+    background-color: #8b9094;
+    border: 2px solid #5e6366;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Arrow styling. */
+
+.joint-popup.joint-theme-dark:before,
+.joint-popup.joint-theme-dark:after {
+    border: 10px solid transparent; /* arrow size */
+}
+
+/* top-stacked, smaller arrow */
+.joint-popup.joint-theme-dark:before {
+    border-bottom-color: #8b9094;  /* arrow color */
+}
+
+/* arrow which acts as a background shadow */
+.joint-popup.joint-theme-dark:after {
+    border-bottom-color: #5e6366;  /* arrow color */
+}

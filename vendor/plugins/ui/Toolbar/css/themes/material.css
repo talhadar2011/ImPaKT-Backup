@@ -1,0 +1,42 @@
+.joint-toolbar.joint-theme-material {
+    background: #717d98;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: lato-light;
+}
+.joint-toolbar.joint-theme-material label,
+.joint-toolbar.joint-theme-material .units,
+.joint-toolbar.joint-theme-material output {
+    font-size: .8em;
+}
+.joint-toolbar.joint-theme-material .joint-toolbar-group {
+    margin-left: 0px;
+}
+
+.joint-toolbar.joint-theme-material .joint-select-button-group .select-button-group-button.selected {
+    color: white;
+    border: 2px solid white;
+}
+.joint-toolbar.joint-theme-material .joint-select-box .select-box-selection:after {
+    background: #828da6;
+    border: 9px solid #828da6;
+}
+.joint-toolbar.joint-theme-material .joint-select-box .select-box-selection:before {
+    background: #828da6;
+}
+.joint-toolbar.joint-theme-material .joint-select-box.joint-theme-material .select-box-selection {
+    border: 2px solid #828da6;
+}
+.joint-toolbar.joint-theme-material .joint-widget textarea,
+.joint-toolbar.joint-theme-material .joint-widget input {
+    color: #ffffff;
+ }
+/* IE 8,9,10*/
+@media screen\0 {
+    .joint-toolbar.joint-theme-material .joint-widget[data-type="toggle"] span:first-child {
+        line-height: 49px;
+    }
+    .joint-toolbar.joint-theme-material label {
+        line-height: 49px;
+    }
+}
